@@ -46,8 +46,8 @@ SELECT COUNT(DISTINCT last_name)
 AS num_distinct_last_name FROM actor;
 
 -- 6
-SELECT title
-FROM film ORDER BY length limit 10;
+SELECT title, length
+FROM film ORDER BY length DESC limit 10;
 
 -- 7
 -- 7.1
